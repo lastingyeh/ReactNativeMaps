@@ -100,7 +100,7 @@
 
     MapView.Animated applied
 
-  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/AnimatedViews.jpeg)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/AnimatedViews.gif)
 
 ### refs by 
 

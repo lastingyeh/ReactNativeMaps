@@ -44,19 +44,19 @@
 
   #### MainView
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/MainView.jpeg)
   
   #### DisplayLatLng
 
     show as simple region for location
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/DisplayLatLng.jpeg)
 
   #### ViewsAsMarkers
 
     use custom-markers at maps
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/ViewsAsMarkers.jpeg)
 
   #### EventListener
 
@@ -70,37 +70,37 @@
 
     * modify path for SyntheticEvent (react-native/Libraries/Renderer/src/renderers/shared/shared/event/SyntheticEvent)
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/EventListener.jpeg)
 
   #### MarkerTypes
 
     use img to create Marker,and add 'onPress' event
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/MarkerTypes.jpeg)
 
   #### DraggableMarkers
 
     marker event-triggers
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/DraggableMarkers.jpeg)
 
   #### PolygonCreator
 
     create and draw region of Polygon
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/PolygonCreator.jpeg)
 
   #### PolylineCreator
 
     create and draw region of Polyline
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/PolylineCreator.jpeg)
 
   #### AnimatedViews
 
     MapView.Animated applied
 
-  ![alt tag](https://github.com/lastingyeh/ThirtyDaysOfReactNative/blob/master/Day5.gif)
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/AnimatedViews.jpeg)
 
 ### refs by 
 

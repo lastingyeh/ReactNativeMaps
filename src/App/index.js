@@ -19,6 +19,12 @@ import DraggableMarkers from '../examples/DraggableMarkers';
 import PolygonCreator from '../examples/PolygonCreator';
 import PolylineCreator from '../examples/PolylineCreator';
 import AnimatedViews from '../examples/AnimatedViews';
+import AnimatedMarkers from '../examples/AnimatedMarkers';
+import Callouts from '../examples/Callouts';
+import Overlays from '../examples/Overlays';
+import DefaultMarkers from '../examples/DefaultMarkers';
+import CustomMarkers from '../examples/CustomMarkers';
+import CachedMap from '../examples/CachedMap';
 
 import styles from './styles';
 import cStyles from '../utils/styles';
@@ -118,7 +124,13 @@ class App extends Component {
         [DraggableMarkers, 'Draggable Markers', true],
         [PolygonCreator, 'Polygon Creator', true],
         [PolylineCreator, 'Polyline Creator', true],
-        [AnimatedViews, 'Animating with MapViews']
+        [AnimatedViews, 'Animating with MapViews'],
+        [AnimatedMarkers, 'Animated Marker Position'],
+        [Callouts, 'Custom Callouts', true],
+        [Overlays, 'Circles, Polygons, and Polylines', true],
+        [DefaultMarkers, 'Default Markers', true],
+        [CustomMarkers, 'Custom Markers', true],
+        [CachedMap, 'Cached Map']
       ]
         .filter(ex => ANDROID || (IOS && (ex[2] || !this.state.useGoogleMaps)))
         .map(makeExampleMapper(IOS && this.state.useGoogleMaps))

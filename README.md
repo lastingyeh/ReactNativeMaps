@@ -102,6 +102,45 @@
 
   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/AnimatedViews.gif)
 
+  #### AnimatedMarkers
+
+    Markers Animated
+
+    *correct the issues : import { Animated } from 'react-native' replaced by import MapView, { AnimatedRegion } from 'react-native-maps'; 
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/AnimatedMarkers.gif)
+
+  #### Callouts
+
+    event triggers show info-window of mapView
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/Callouts.gif)
+
+  #### Overlays
+
+    show how to use  Circle,Polygon,Polyine of MapView
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/Overlays.jpeg)
+
+  #### DefaultMarkers
+
+    use default markers(random color used)
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/DefaultMarkers.jpeg)
+
+  #### CustomMarkers
+
+    use custom markers to show
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/CustomMarkers.gif)
+
+  #### CachedMap
+
+    use ListView match with MapView cacheEnabled
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/CachedMap.gif)
+
+
 ### refs by 
 
   1. https://github.com/airbnb/react-native-maps/tree/master/example

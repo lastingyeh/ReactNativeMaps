@@ -140,6 +140,30 @@
 
   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/CachedMap.gif)
 
+  #### LoadingMap
+
+    As Loading effect when MapView prepare
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/LoadingMap.gif)
+
+  #### TakeSnapshot
+
+    Take a snap to be image resource
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/TakeSnapshot.jpeg)
+
+  #### FitToSuppliedMarkers
+
+    Animated to show Fit effect for markers
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/FitToSuppliedMarkers.gif)
+
+  #### FitToCoordinates
+
+    Fit markers selected in mapView
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/FitToCoordinates.gif)
+
 
 ### refs by 
 

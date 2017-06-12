@@ -25,6 +25,10 @@ import Overlays from '../examples/Overlays';
 import DefaultMarkers from '../examples/DefaultMarkers';
 import CustomMarkers from '../examples/CustomMarkers';
 import CachedMap from '../examples/CachedMap';
+import LoadingMap from '../examples/LoadingMap';
+import TakeSnapshot from '../examples/TakeSnapshot';
+import FitToSuppliedMarkers from '../examples/FitToSuppliedMarkers';
+import FitToCoordinates from '../examples/FitToCoordinates';
 
 import styles from './styles';
 import cStyles from '../utils/styles';
@@ -130,7 +134,11 @@ class App extends Component {
         [Overlays, 'Circles, Polygons, and Polylines', true],
         [DefaultMarkers, 'Default Markers', true],
         [CustomMarkers, 'Custom Markers', true],
-        [CachedMap, 'Cached Map']
+        [CachedMap, 'Cached Map'],
+        [LoadingMap, 'Map with loading'],
+        [TakeSnapshot, 'Take Snapshot', true, '(incomplete)'],
+        [FitToSuppliedMarkers, 'Focus Map On Markers', true],
+        [FitToCoordinates, 'Fit Map To Coordinates', true]
       ]
         .filter(ex => ANDROID || (IOS && (ex[2] || !this.state.useGoogleMaps)))
         .map(makeExampleMapper(IOS && this.state.useGoogleMaps))

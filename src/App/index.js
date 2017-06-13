@@ -29,6 +29,12 @@ import LoadingMap from '../examples/LoadingMap';
 import TakeSnapshot from '../examples/TakeSnapshot';
 import FitToSuppliedMarkers from '../examples/FitToSuppliedMarkers';
 import FitToCoordinates from '../examples/FitToCoordinates';
+import LiteMapView from '../examples/LiteMapView';
+import CustomTiles from '../examples/CustomTiles';
+import ZIndexMarkers from '../examples/ZIndexMarkers';
+import StaticMap from '../examples/StaticMap';
+import MapStyle from '../examples/MapStyle';
+import LegalLabel from '../examples/LegalLabel';
 
 import styles from './styles';
 import cStyles from '../utils/styles';
@@ -138,7 +144,13 @@ class App extends Component {
         [LoadingMap, 'Map with loading'],
         [TakeSnapshot, 'Take Snapshot', true, '(incomplete)'],
         [FitToSuppliedMarkers, 'Focus Map On Markers', true],
-        [FitToCoordinates, 'Fit Map To Coordinates', true]
+        [FitToCoordinates, 'Fit Map To Coordinates', true],
+        [LiteMapView, 'Android Lite MapView'],
+        [CustomTiles, 'Custom Tiles', true],
+        [ZIndexMarkers, 'Position Markers with Z-index', true],
+        [StaticMap, 'StaticMap', true],
+        [MapStyle, 'Customize the style of the map', true],
+        [LegalLabel, 'Reposition the legal label', true]
       ]
         .filter(ex => ANDROID || (IOS && (ex[2] || !this.state.useGoogleMaps)))
         .map(makeExampleMapper(IOS && this.state.useGoogleMaps))

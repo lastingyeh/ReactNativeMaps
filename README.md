@@ -164,6 +164,39 @@
 
   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/FitToCoordinates.gif)
 
+  #### LiteMapView
+
+    Lite Maps list
+
+   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/LiteMapView.jpeg)
+
+  #### CustomTiles
+
+    to be updating..
+
+  #### ZIndexMarkers
+
+    marker zIndex used
+
+   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/ZIndexMarkers.jpeg)
+
+  #### StaticMap
+
+    static map at scrollView
+
+   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/StaticMap.jpeg)
+
+  #### MapStyle
+
+    custom mapStyle used
+
+   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/MapStyle.jpeg)
+
+  #### LegalLabel
+
+    legal animated
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/LegalLabel.gif)
 
 ### refs by 
 

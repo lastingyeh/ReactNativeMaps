@@ -198,6 +198,24 @@
 
   ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/LegalLabel.gif)
 
+  #### SetNativePropsOverlays
+
+    use ref by mapView object (circle,polygon,polyline) to set nativeProp
+  
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/SetNativePropsOverlays.gif)
+  
+  #### CustomOverlay
+
+    custom overlay setting
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/CustomOverlay.jpeg)
+
+  #### BugMarkerWontUpdate
+
+    navigator watch && rotate marker demo
+
+  ![alt tag](https://github.com/lastingyeh/ReactNativeMaps/blob/master/imgs/BugMarkerWontUpdate.gif)
+
 ### refs by 
 
   1. https://github.com/airbnb/react-native-maps/tree/master/example

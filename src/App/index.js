@@ -35,6 +35,9 @@ import ZIndexMarkers from '../examples/ZIndexMarkers';
 import StaticMap from '../examples/StaticMap';
 import MapStyle from '../examples/MapStyle';
 import LegalLabel from '../examples/LegalLabel';
+import SetNativePropsOverlays from '../examples/SetNativePropsOverlays';
+import CustomOverlay from '../examples/CustomOverlay';
+import BugMarkerWontUpdate from '../examples/BugMarkerWontUpdate';
 
 import styles from './styles';
 import cStyles from '../utils/styles';
@@ -150,7 +153,10 @@ class App extends Component {
         [ZIndexMarkers, 'Position Markers with Z-index', true],
         [StaticMap, 'StaticMap', true],
         [MapStyle, 'Customize the style of the map', true],
-        [LegalLabel, 'Reposition the legal label', true]
+        [LegalLabel, 'Reposition the legal label', true],
+        [SetNativePropsOverlays, 'Update native props', true],
+        [CustomOverlay, 'Custom Overlay Component', true],
+        [BugMarkerWontUpdate, "BUG: Marker Won't Update (Android)", true]
       ]
         .filter(ex => ANDROID || (IOS && (ex[2] || !this.state.useGoogleMaps)))
         .map(makeExampleMapper(IOS && this.state.useGoogleMaps))
